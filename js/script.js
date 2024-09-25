@@ -1,6 +1,7 @@
 function productosEnElCarrito() {
     return localStorage.carrito ? JSON.parse(localStorage.carrito).length : 0;
-}
+};
+
 function agregarAlCarrito(id, nombre) {
     let carrito = obtenerCarrito();
 
@@ -29,7 +30,6 @@ window.addEventListener("load", function () {
     botonComprar.forEach((boton) => {
         boton.addEventListener("click", (e) => {
             agregarAlCarrito(e.target.dataset.id, e.target.dataset.nombre);
-
             Swal.fire({
                 position: "top-end",
                 icon: "success",
@@ -37,8 +37,6 @@ window.addEventListener("load", function () {
                 showConfirmButton: false,
                 timer: 1500
             });
-
-
         });
     });
 });
