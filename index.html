@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecno Shop</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="/assets/logo/logotc.png" alt="logo" />
+    
+    <div id="nav-container"></div>
+
+    <label for="toggle" id="label_toggle"><i class="bi bi-moon-stars-fill"></i></label>
+    
+    <input type="checkbox" id="toggle">
+  
+    <div class="carrito" id="carrito">
+        <a href="/pages/carrito.html"> 
+        <i class="bi bi-cart4"></i></a><span id="contador-carrito">0</span></a>
+			</div>
+    </header>
+
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Buscar...">
+      <button id="search-button">Buscar</button>
+  </div>
+  <ul id="results"></ul>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/banners/banner1.png" class="d-block w-100" alt="banner">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/banners/banner3.png" class="d-block w-100" alt="banner">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/banners/banner2.png" class="d-block w-100" alt="banner">
+      </div>
+      <div class="carousel-item">
+        <img src="assets/banners/banner4.png" class="d-block w-100" alt="banner">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="text-container">
+    <h1>Productos Destacados</h1>
+    <hr>
+  </div>
+  <section id="productos-container" class="container">
+    <div id="productosRow" class="row">
+      
+    </div>
+</section>
+<hr>
+<hr>
+  <div class="suscripcion">
+  <div class="formulario">
+  <h2>Newsletter</h2>
+  <p>Registrate y recibí nuestras ofertas IMPERDIBLES!</p>
+  <form action="action">
+    <input type="text" placeholder="Ingresá tu mail...">
+    <button class="boton-form" type="submit">Enviar</button>
+  </form>
+  </div>
+<div class="motorola-img">
+  <img src="https://armoto.vtexassets.com/arquivos/razr-exclusive-01.png" alt="">
+</div>
+</div>
+<div class="imgBanner">
+  <img src="/assets/banners/bannerFooter.jpg" alt="banner">
+</div>
+<footer class="footer-distributed">
+
+  <div class="footer-left">
+      <h3>Tecno<span>Shop</span></h3>
+
+      <p class="footer-links">
+          <a href="/index.html">Home</a>
+          |
+          <a href="/pages/productos.html">Product</a>
+          |
+          <a href="/pages/contacto.html">Contact</a>
+          |
+          <a href="#">Blog</a>
+      </p>
+
+      <p class="footer-company-name">Copyright © 2024 <strong>TecnoShop</strong> All rights reserved</p>
+  </div>
+
+  <div class="footer-center">
+      <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Rosario</span>
+              Santa Fe</p>
+      </div>
+
+      <div>
+          <i class="fa fa-phone"></i>
+          <p>341 3**9*328</p>
+      </div>
+      <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="#">tecnoshop@gmail.com</a></p>
+      </div>
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+          <span>About the company</span>
+          <strong>Tecno Shop</strong> Lorem ipsum dolor sit amet consectetur, adipisicing elit. In placeat est perferendis natus voluptatem praesentium vero, odit rerum nisi eaque excepturi magnam recusandae cupiditate dolorum nesciunt ducimus odio asperiores facere.
+      </p>
+      <div class="footer-icons">
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-youtube"></i></a>
+      </div>
+  </div>
+</footer>
+<script src="/js/apiml.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/darkMode.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/buscador.js"></script>
+    <script src="/js/carrito.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+[
+    
+    {
+        "id": 1,
+        "nombre": "Samsung S24",
+        "img": "/assets/productos/S24.jpg",
+        "precio": 250000,
+        "Cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung A54",
+        "img": "/assets/productos/A54.jpg",
+        "precio": 350000,
+        "Cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Samsung S21",
+        "img": "/assets/productos/S21.jpg",
+        "precio": 500000,
+        "Cantidad": 1
+    },
+    {
+        "id": 4,
+        "nombre": " Motorola Razar 40",
+        "img": "/assets/productos/Razr40.jpeg",
+        "precio": 670000,
+        "Cantidad": 1
+    }
+]
